@@ -14,5 +14,6 @@ def imshow(X, resize=None):
 
     Img_1 = Image.fromarray(X)  # bring maximum value to 255, convert to pillow Image
     Img_1 = Img_1.resize(resize)
+    Img_1.show()
     return Img_1
     # interact(plot_Im(Img_1), resize = (100, 200,1000))
